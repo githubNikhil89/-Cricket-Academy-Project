@@ -1,0 +1,119 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('https://media.canva.com/v2/image-resize/format:JPG/height:452/quality:92/uri:ifs%3A%2F%2FM%2Fd0f1a632-44bf-486e-ae75-78f1517043c2/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAACK7VEuQq1B0ZG4D1b5VtG3cLqSdl-MV2RbSIHpNlq1H&exp=1751652618&osig=AAAAAAAAAAAAAAAAAAAAAJSzxgxbOvC1OvOx9kNYDXpws4HH4Ll2vhlsPsgxjwZG&signer=media-rpc&x-canva-quality=screen') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: rgba(0, 137, 123, 0.9);
+      color: white;
+      padding: 20px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+
+    header img {
+      height: 60px;
+      margin-right: 15px;
+    }
+
+    header h1 {
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    nav {
+      background-color: rgba(0, 105, 92, 0.9);
+      padding: 12px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 17px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffeb3b;
+    }
+
+    .section {
+      background-color: rgba(255, 255, 255, 0.96);
+      margin: 40px auto;
+      padding: 40px;
+      max-width: 900px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    .section h2 {
+      color: #00796b;
+      margin-bottom: 20px;
+      font-size: 26px;
+      border-left: 6px solid #004d40;
+      padding-left: 12px;
+    }
+
+    .section p, .section li {
+      font-size: 18px;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 24px;
+      background-color: #00796b;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #004d40;
+    }
+
+    footer {
+      background-color: rgba(0, 77, 64, 0.95);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 15px;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+      }
+
+      header img {
+        margin: 0 0 10px 0;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 10px;
+        font-size: 16px;
+      }
+    }
