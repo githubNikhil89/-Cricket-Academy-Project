@@ -6,7 +6,7 @@
 
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: url('https://media.canva.com/v2/image-resize/format:JPG/height:452/quality:92/uri:ifs%3A%2F%2FM%2Fd0f1a632-44bf-486e-ae75-78f1517043c2/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAACK7VEuQq1B0ZG4D1b5VtG3cLqSdl-MV2RbSIHpNlq1H&exp=1751652618&osig=AAAAAAAAAAAAAAAAAAAAAJSzxgxbOvC1OvOx9kNYDXpws4HH4Ll2vhlsPsgxjwZG&signer=media-rpc&x-canva-quality=screen') no-repeat center center fixed;
+      background: url('image2.png') no-repeat center center fixed;
       background-size: cover;
       color: #333;
       line-height: 1.6;
