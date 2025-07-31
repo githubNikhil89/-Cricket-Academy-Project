@@ -17,7 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // 3. Registration form handling with Google Sheets integration
   const form = document.querySelector("#registration form");
-  const scriptURL = "https://script.google.com/macros/s/AKfycbx1234567890abcd/exec"; // Replace this with your actual URL
+  const scriptURL = "https://script.google.com/macros/s/AKfycbxjpWwDfH8Vb_w1N0MUSzVMRu2kKjSAmzK7TrBwKI_rUdnfmRAq4esYI0vqWvxklPLHHA/exec
+"; 
 
   if (form) {
     form.addEventListener("submit", function (e) {
