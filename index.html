@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crick_factory</title>
     <link rel="stylesheet" href="style.css">
-     
 </head>
 <body>
  <header>
@@ -76,22 +75,23 @@
   </div>
 
   <div class="section" id="registration">
-<h2>Registration</h2>
-<form>
-        <label>Name:</label><br>
-        <input type="text" name="name" placeholder="enter your name"required><br><br>
+    <h2>Registration</h2>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
 
-        <label>Email:</label><br>
-        <input type="email" name="email" placeholder="enter your email"required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email (e.g. john@example.com)" required><br><br>
 
-        <label>Phone:</label><br>
-        <input type="text" name="phone" placeholder="enter your phone number"required><br><br>
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your 10-digit phone number" pattern="[0-9]{10}" required><br><br>
 
-        <label>Age:</label><br>
-        <input type="number" name="age" placeholder="enter your age"required><br><br>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" placeholder="Enter your age" min="6" max="60" required><br><br>
 
-        <label>Preferred Role:</label><br>
-        <select name="role">
+        <label for="role">Preferred Role:</label><br>
+        <select id="role" name="role" required>
+            <option value="" disabled selected>Select your role</option>
             <option value="Batsman">Batsman</option>
             <option value="Bowler">Bowler</option>
             <option value="All-Rounder">All-Rounder</option>
@@ -102,11 +102,9 @@
     </form>
   </div>
   
-    <footer>
+  <footer>
     &copy; 2025 Crick_Factory. All rights reserved.
   </footer>
 <script src="script.js"></script>
 </body>
 </html>
-
-
